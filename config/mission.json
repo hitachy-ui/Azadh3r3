@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "mission": "Acquire the first paying UAE marketplace audit customer",
+  "offer": {
+    "name": "Amazon UAE Listing & PPC Audit",
+    "price_aed": 299
+  },
+  "targets": {
+    "first_paying_customers": 1,
+    "qualified_prospects_per_day": 5,
+    "weekly_review": true
+  },
+  "guardrails": {
+    "public_business_contacts_only": true,
+    "dedupe_required": true,
+    "no_unverified_sent_claims": true,
+    "no_approval_bypass": true,
+    "no_secrets_in_repository": true
+  },
+  "metrics": [
+    "verified_prospects",
+    "approved_outreach",
+    "confirmed_sent",
+    "replies",
+    "qualified_calls",
+    "paid_customers",
+    "revenue_aed",
+    "delivery_completed"
+  ]
+}
